@@ -1,0 +1,23 @@
+/*
+ * Some applications depend on these named colors.
+ */
+
+@define-color theme_fg_color @fg_color;
+@define-color theme_bg_color @bg_color;
+@define-color theme_base_color @base_color;
+@define-color theme_selected_bg_color @selected_bg_color;
+@define-color theme_selected_fg_color @selected_fg_color;
+@define-color disabled_bg_color @bg_color;
+@define-color disabled_fg_color @fg_color;
+@define-color disabled_base_color @base_color;
+@define-color theme_unfocues_fg_color @backdrop_fg_color;
+@define-color theme_unfocues_bg_color @bg_color;
+@define-color theme_unfocues_base_color @base_color;
+@define-color theme_unfocues_selected_bg_color @selected_bg_color;
+@define-color theme_unfocues_selected_fg_color @selected_fg_color;
+@define-color borders shade(@bg_color, 0.82);
+@define-color unfocues_borders transparent;
+
+@define-color warning_color @warning_fg_color;
+@define-color error_color @error_fg_color;
+@define-color success_color @success_color;

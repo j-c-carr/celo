@@ -1,0 +1,37 @@
+* {
+    background-color: #fafafa;
+}
+
+@import url("celo-1.css");
+@import url("cmdButton.css");
+list * {
+   background-color: #ff0000;
+}
+
+.cmdEntry {
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+.cmdEntry > *{
+    padding-left: 24px;
+}
+
+.reminder-wrapper {
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+}
+.reminder-scroll {
+    border-bottom-color: rgb(240, 240, 240);
+    border-top-color: rgb(240, 240, 240);
+}
+
+.todo-wrapper {
+    border-radius: 20px;
+    background-color: rgb(252, 213, 195);
+}
+
+.cmdEntryTodoMode {
+    background-color: rgb(252, 213, 195);
+} 

@@ -1,0 +1,29 @@
+/*
+You can type here any CSS rule recognized by GTK+.
+You can temporarily disable this custom CSS by clicking on the “Pause” button above.
+
+Changes are applied instantly and globally, for the whole application.
+*/
+.calendar {
+
+	background-color: rgb(176,196,222);
+	padding: 2px;
+	border-radius: 10px;
+	opacity: 0.9;
+	transition: opacity 2s;
+
+}
+.calendar * {
+	border: 0px solid black;
+	
+}
+.calendar *:focus:active,
+*:focus, *:active {
+	border: 0px solid black;
+	  background-image: none;
+  	outline: 0;
+  	box-shadow: none;
+}
+.calendar:hover {
+	opacity: 0.95;
+}
